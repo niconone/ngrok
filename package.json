@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "node ./node_modules/mocha/bin/_mocha",
-    "postinstall": "node ./postinstall.js",
-    "postupdate": "node ./postinstall.js"
+    "preinstall": "node ./preinstall.js",
+    "postinstall": "node ./postinstall.js"
   },
   "repository": {
     "type": "git",
